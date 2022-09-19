@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'OpenSans700';
+    src:
+    url("./fonts/AnyConv.com__OpenSans-VariableFont_wdth\,wght.woff2") format("woff2"),
+    url("./fonts/AnyConv.com__OpenSans-Italic-VariableFont_wdth\,wght.woff") format("woff"),
+    url("./fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("ttf"),
+    url("./fonts/AnyConv.com__OpenSans-VariableFont_wdth\,wght.eot") format("eot");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway400';
+    src:url("./fonts/AnyConv.com__Raleway-VariableFont_wght.woff2") format("woff2"),
+    url("./fonts/AnyConv.com__Raleway-VariableFont_wght.woff") format("woff"),
+    url("./fonts/Raleway-VariableFont_wght.ttf") format("ttf"),
+    url("./fonts/AnyConv.com__Raleway-Italic-VariableFont_wght.eot") format("eot");
+    font-weight: 400;
+    font-style: normal;
+}
+.head{
+    font-family: 'Raleway400';
+    font-size: 36px;
+    color: #000000;
+    font-weight: 400;
+}
+.head::after{
+    content: "";
+    width: 143px;
+    display: block;
+    border: 1px solid #EC7979;
+    margin: 30px auto;
+}
+.back{
+    padding-top: 50px;
+    background-color:  #F5F5F5;
+    align-items: center;
+    text-align: center;
+}
+.price:hover{
+    transform: translateY(-20px);
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+
+}
+
+.text{
+    font-family: 'Raleway400';
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 32px;
+    color: #86878B;
+}
+
+
+.price {
+    box-sizing: border-box;
+    border: 2px solid #F5F5F5;
+    margin-top: 50px;
+    margin-bottom: 65px;
+    transition: .3s;
+    text-align: center;
+    max-width: 370px;
+    padding: auto;
+    width:100%;
+}
+
+.container{
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding: auto;
+}
+.price__head p {
+    border: 1px solid #F5F5F5;
+    margin: 0;
+    text-align: center;
+    background: #333333;
+    
+} 
+.price__title p {
+    color: #FFFFFF;
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 370px;
+    font-weight: 700;
+}
+.price__ p{
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 700;
+    height: 100px;
+    line-height: 100px;
+    max-width: 370px;
+   }
+.price__free p{
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 370px;
+    font-family: 'Raleway400';
+}
+.list{
+font-family: 'Raleway400';
+width: 370px;
+margin: 0;
+padding: 0;
+}
+
+.list li{
+    border: 1px solid #F5F5F5;
+    font-weight: 400;
+    font-size: 18px;
+    list-style-type: none;
+    color: 
+    #86878B;
+    background-color: #fff;
+    max-height: 50px;
+    line-height: 50px;
+
+}
+.back1{
+    padding-top: 50px;
+    background-color:  #fff;
+    align-items: center;
+    text-align: center;
+
+}
+.column{
+    transition: .3s;
+    margin-top: 50px;
+    margin-bottom: 65px;
+max-width: 370px;
+color: #000000;
+}
+.design{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100px;
+    height: 100px;
+}
+.description{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    height: 105px;
+    font-size: 18px;
+line-height: 21px;
+}
+.column:hover{
+    transform: translateY(-20px);
+}
+body{
+    margin: 0px;
+}
+.head2{
+height: 76px;
+    background-color: #000;; 
+    /* HEX */
+     width: 100%;
+    display:inline-block;
+     width: 100%;
+    justify-content: center;
+    display: flex; 
+
+    
+}
+.container{
+    max-width: 1170px;
+margin: auto;
+}
+
+
+ul{
+    font-family: "Open Sans", sans-serif;
+    font-size: 600;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.nav li a{
+color:#fff;
+text-decoration: none;
+
+
+}
+.nav li{
+    margin-left: 60px;
+}
+.nav{
+    height: 76px;
+    display:inline-block;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.nav__menu{
+    display:flex
+}
+.nav li:first-child {
+    margin-left: 0px;
+}
